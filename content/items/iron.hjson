@@ -1,0 +1,7 @@
+{
+"type": "item"
+  "name": "iron"
+  "hardness": "0.88"
+  "description": "A basic material for interstellar travel"
+    "research": "copper"
+}
