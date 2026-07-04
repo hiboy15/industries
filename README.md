@@ -13,3 +13,12 @@ some things are beta
 into java mod but cannot and scripts no
 work 
 
+# CREDITS #
+     Main Dev - Hiboy15
+     Contributers - 
+         Hiboy15
+
+
+If you get a merge please write it on the contributers 
+
+
