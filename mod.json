@@ -1,9 +1,10 @@
 {
-"name": "industries"
-"MinGameVersion": "154" 
-"version": "1" 
-"description": "small mod with stuff" 
+"name": "better industries"
+"description": "has some amazing industries"
+"version": "beta"
+"subtitle": "better stuff"
+"minGameVersion": 154
 "author": "24lowie" 
-"repo": "hiboy15/industries"
-"subtitle": "export stuff" 
+"repo": "hiboy15/newtech"
+"displayName": "industries"
 }
