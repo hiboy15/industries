@@ -1,0 +1,66 @@
+{
+  type: mech
+  name: dex
+  description: "Shoots dual bullets at enemies."
+  
+  # Stats you gave
+  health: 28000
+  armor: 6
+  
+  # Movement
+  speed: 0.65
+  drag: 0.08
+  mass: 3.5
+  buildPower: 3.0
+  mineSpeed: 4.0
+  mineTier: 2
+  itemCapacity: 60
+  
+  # Weapons - dual cannons
+  weapons: [
+    {
+      name: dex-cannon
+      x: 6
+      y: 0
+      reload: 35
+      shootSound: pew
+      bullet: {
+        type: ArtilleryBulletType
+        damage: 120
+        splashDamage: 60
+        splashDamageRadius: 20
+        speed: 4
+        lifetime: 60
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+      }
+    }
+    {
+      name: dex-cannon
+      x: -6
+      y: 0
+      reload: 35
+      shootSound: pew
+      bullet: {
+        type: ArtilleryBulletType
+        damage: 120
+        splashDamage: 60
+        splashDamageRadius: 20
+        speed: 4
+        lifetime: 60
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+      }
+    }
+  ]
+  
+  # Abilities
+  abilities: [
+    {
+      type: ShieldRegenAbility
+      shield: 800
+      cooldown: 90
+      radius: 23
+}
+  }
+ 
