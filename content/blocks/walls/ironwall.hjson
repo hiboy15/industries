@@ -1,0 +1,7 @@
+
+health: 5900
+name: iron wall
+requirements: [
+  iron/54
+  ]
+  research: copper-wall
