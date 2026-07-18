@@ -14,11 +14,14 @@ into java mod but cannot and scripts no
 work 
 
 # CREDITS #
-     Main Dev - Hiboy15
+     Main Dev - Hiboy15 (24lowie ingame)
      Contributers - 
          Hiboy15
 
 
 If you get a merge please write it on the contributers 
+
+## Map creators 
+Hiboy15 (24lowie ingame)
 
 
