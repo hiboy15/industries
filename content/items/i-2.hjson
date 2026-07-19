@@ -1,0 +1,5 @@
+type: item 
+name: basic ammo
+ description: used to ammo stuff
+   research: blast-compound
+     
