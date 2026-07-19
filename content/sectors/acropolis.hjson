@@ -1,0 +1,20 @@
+{
+  planet: serpulo
+  sector: 119
+  research:
+  {
+    parent: overgrowth
+    objectives: [
+      {
+        type: SectorComplete
+        preset: overgrowth
+      }
+    ]
+  }
+  captureable: true
+  alwaysUnlocked: false
+  name: acropolis
+  difficulty: 10
+  requireUnlock: true
+  description: One Archaic bastion made by the crux. they will send the best units to stop an invasion use their power to your advantage. and recover the long lost knowledge of the crux.
+}
