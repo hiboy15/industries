@@ -1,0 +1,22 @@
+name: energy-drill
+type: Drill
+requirements: [
+  phase-fabric/500
+  lead/450
+  thorium/600
+  silicon/4
+]
+research: laser-drill
+drillTime: 120
+size: 2
+tier: 3
+description: Drills iron and other resources.
+category: production
+blockedItems: [
+"copper"
+"lead"
+"coal"
+]
+consumes: {
+power: 5.4
+}
