@@ -1,0 +1,60 @@
+{
+  type: ItemTurret
+  name: Vernation
+  description: "Shoots large bullets at slow large enemy targets"
+  health: 1300
+  size: 5
+  requirements: [
+    copper/9400
+    lead/6400
+    silicon/400
+    iron/500
+  ]
+  category: turret
+  research: lancer
+  targetAir: false
+  targetGround: true
+  range: 220
+  reload: 60
+  shots: 1
+  inaccuracy: 1
+  shootSound: bang
+  ammoTypes: {
+    iron: {
+      type: BasicBulletType
+      damage: 9500
+      speed: 11
+      width: 15
+      height: 28
+      lifetime: 20
+      pierce: true
+      backColor: "000001"
+      frontColor: "ff0013"
+    }
+    surge-alloy: {
+      type: HomingBulletType
+      damage: 5400
+      speed: 6.5
+      width: 8
+      height: 8
+      lifetime: 34
+      pierce: true
+      lightning: 9
+      lightningDamage: 50
+      backColor: "ff5454"
+      frontColor: "fff459"
+    }
+    i-2: {
+      type: HomingBulletType
+      damage: 6000
+      speed: 5.5
+      lifetime: 40
+      pierce: false
+      lightning: 12
+      lightningDamage: 450
+    }
+  }
+  consumes: {
+    power: 1.0
+  }
+}
