@@ -1,0 +1,19 @@
+{
+  type: UnitFactory
+  name: Mega Air factory
+  size: 4
+  health: 5600
+  produceTime: 940
+  research: air-factory
+  consumes: {
+    power: 1.9
+    items: {
+      items: [
+        silicon/40
+        iron/70
+      ]
+    }
+  }
+  category: units
+  unitType: uf-1
+}
