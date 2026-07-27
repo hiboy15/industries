@@ -1,0 +1,7 @@
+health: 1
+research: core-shard
+name: Turrets
+buildVisibility: debugOnly
+requirements: [
+
+]
