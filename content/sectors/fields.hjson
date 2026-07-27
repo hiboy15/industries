@@ -1,0 +1,21 @@
+{
+  planet: serpulo
+  sector: 222
+  research:
+  {
+    parent: frozenForest
+    objectives: [
+      {
+        type: SectorComplete
+        preset: frozenForest
+      }
+    ]
+  }
+  captureable: true
+  alwaysUnlocked: false
+  name: fields
+  difficulty: 2
+  captureWave: 15
+  requireUnlock: true
+  description: a spore ridden area with failed expirements makes this area cold and mutated the spores. Acess the iron and make stronger weapons.
+}
