@@ -1,0 +1,34 @@
+{
+  "parent": "sun",
+  "orbitRadius": 40,
+  "orbitTime": 240,
+  "mesh": {
+    "type": "MultiMesh",
+    "meshes": [
+      {
+        "type": "NoiseMesh",
+        "planet": "my-planet",
+        "seed": 1,
+        "divisions": 5,
+        "radius": 1.0,
+        "octaves": 4,
+        "persistence": 0.5,
+        "scl": 1.0,
+        "color1": "665544",
+        "color2": "332211"
+      },
+      {
+        "type": "NoiseMesh",
+        "planet": "my-planet",
+        "seed": 2,
+        "divisions": 5,
+        "radius": 1.02,
+        "octaves": 2,
+        "persistence": 0.6,
+        "scl": 1.5,
+        "color1": "887766",
+        "color2": "443322"
+      }
+    ]
+  }
+}
