@@ -1,0 +1,49 @@
+{
+  "parent": "sun",
+  "orbitRadius": 40,
+  "orbitTime": 240,
+  "name": "erebus"
+  "mesh": {
+    "type": "MultiMesh",
+    "meshes": [
+      {
+        "type": "NoiseMesh",
+        "planet": "erebus",
+        "seed": 1,
+        "divisions": 5,
+        "radius": 1.0,
+        "octaves": 4,
+        "persistence": 0.5,
+        "scl": 1.0,
+        "color1": "99A998",
+        "color2": "988A99"
+      },
+      {
+        "type": "NoiseMesh",
+        "planet": "Erebus",
+        "seed": 2,
+        "divisions": 5,
+        "radius": 1.02,
+        "octaves": 2,
+        "persistence": 0.6,
+        "scl": 1.5,
+        "color1": "999999",
+        "color2": "999998"
+      }
+    ]
+  "accessible": true
+  "shown": true
+  "hiddenitems": [
+  "copper"
+  "lead"
+  "coal"
+  "titanium"
+  "silicon"
+  "metaglass"
+  "thorium"
+  "phase-fabric"
+  "surge-alloy"
+ ]
+    ]
+  }
+}
