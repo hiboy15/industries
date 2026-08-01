@@ -1,0 +1,22 @@
+{
+  type: air
+  name: neorcon
+  health: 300
+  speed: 0.6
+  flying: true
+  armor: 5
+  
+  weapons: [
+    {
+      name: uf-def1
+      reload: 20
+      shootSound: pew
+      bullet: {
+        type: HomingBulletType
+        damage: 66
+        speed: 4.5
+        lifetime: 60
+      }
+    }
+  ]
+}
