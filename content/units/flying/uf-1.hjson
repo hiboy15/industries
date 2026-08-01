@@ -1,5 +1,5 @@
 {
-  type: air
+  type: flying 
   name: neorcon
   health: 300
   speed: 0.6
